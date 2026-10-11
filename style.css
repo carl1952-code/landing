@@ -1,0 +1,136 @@
+* {
+    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Container Background and Shadow */
+.site-header {
+  background-color: #07133b;
+ 
+}
+.body{
+  background-color: bisque;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  text-align: right;
+  gap: 40px;}
+
+.nav-links a{
+  margin-left: 20px;
+  margin-top: 20px;
+  color: wheat;
+  font-weight: bolder;
+  transition: 0.8s;
+}
+.nav-links a:hover{
+  color: red;
+}
+.site-logo{
+  font-weight: bolder;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+.site-logo a{
+  justify-content: right;
+}
+.E{
+  text-align: center;
+}
+.E h1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.E p{
+  font-size: 17px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: 5px solid red;
+  background-color: bisque;
+}
+.about{
+  text-align: center;
+}
+.about h1{
+  margin: 20px;
+  background-color: black;
+  color: azure;
+  transition: 0.8s;
+}
+.about h1:hover{color: blueviolet;
+  border: 3px solid red;
+  background-color: rgb(5, 46, 82);
+
+
+}
+.about h2{
+  margin: 7px;
+}
+.about p{
+  font-weight: bold;
+  background-color: bisque;
+}
+.about p2{
+  font-weight: bold;
+  margin-top: 5px;
+  background-color: bisque;
+}
+.ser p{
+  padding: 10px 10px;
+  background-color: bisque;
+  text-align: center;
+}
+.ser h2{
+  transition: 0.8s;
+  background-color: black;
+  color: azure;
+  margin: 10px;
+  text-align: center;
+}
+.ser h2:hover{
+  border: 3px solid red;
+  background-color: rgb(5, 46, 82);
+  color: blueviolet;
+}
+
+
+
+.con h3{
+  margin: 10px;
+  background-color: bisque;
+  text-align: center;
+}
+
+.con h4{
+  margin: 10px;
+  background-color: bisque;
+  text-align: center;
+}
+
+.con p{
+  padding: 10px 10px;
+  background-color: bisque;
+  text-align: center;
+}
+
+.con h1{
+  transition: 0.8s;
+  background-color: black;
+  color: azure;
+  margin: 10px;
+  text-align: center;
+}
+.con h1:hover{
+  border: 3px solid red;
+  background-color: rgb(5, 46, 82);
+  color: blueviolet;
+}
+.ho{
+  font-weight: bold;
+  text-align: right;
+}
